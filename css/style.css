@@ -1,0 +1,322 @@
+/* league-spartan-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/league-spartan-v11-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/league-spartan-v11-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/league-spartan-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  font-family: "League Spartan";
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 50px;
+}
+
+.home__header {
+  color: white;
+  background-image: url(../images/homepage/hero-bg-desktop@2x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 151px;
+}
+
+.home__logo {
+  margin-top: 65px;
+  margin-bottom: 153px;
+}
+
+.home__h4__text {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10rem;
+  line-height: 8rem;
+  letter-spacing: -1px;
+  width: 100%;
+  max-width: 51.1rem;
+  margin-bottom: 1rem;
+}
+.home__p__text {
+  width: 100%;
+  max-width: 44.5rem;
+  margin-bottom: 40px;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 30px;
+}
+.home__link {
+  padding: 2.5rem 5.4rem;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 2.5px;
+  transition: 0.3s ease-in-out;
+
+  &:active {
+    background-color: #fff;
+    border: transparent;
+    color: #000;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.home__footer__section {
+  background-image: url(../images/homepage/ready-bg-tablet.jpg);
+}
+
+.home__footer__class {
+  padding-top: 9.9rem;
+  padding-bottom: 9.3rem;
+  display: flex;
+  gap: 250px;
+}
+.home__footer__h4 {
+  color: white;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.5px;
+}
+
+.tel {
+  text-decoration: none;
+  color: #fff;
+}
+
+.home__footerbg {
+  background-color: #111;
+  color: #fff;
+}
+.home__footer__mobila {
+  display: flex;
+
+  justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 7.6rem;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.home__footer-t {
+  display: flex;
+  flex-direction: column;
+  &:hover {
+    color: blue;
+  }
+}
+
+.desktop-class {
+  display: flex;
+  gap: 125px;
+}
+.desktop-grup-img {
+  margin-top: -7.5rem;
+}
+
+.icon {
+  padding-top: 17.7rem;
+}
+.desktop-enjoyable-heading {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.5px;
+  color: #242b37;
+  width: 100%;
+  max-width: 44.5rem;
+  margin-bottom: 2.7rem;
+  padding-top: 5.5rem;
+}
+.desktop-enjoyable-paragraph {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #242b37;
+  width: 100%;
+  max-width: 44.5rem;
+}
+
+.class2 {
+  margin-top: 12.5rem;
+}
+
+.image-ico {
+  background-image: url(../images/homepage/Group\ 12.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.bgc {
+  background-color: black;
+  margin-top: -7.5rem;
+  padding-top: 20rem;
+  padding-bottom: 12rem;
+}
+
+.all-content {
+  display: flex;
+  gap: 12.5rem;
+}
+
+.afew,
+.wecat {
+  color: #fff;
+}
+
+.right {
+  padding-top: 7rem;
+}
+.food-text {
+  display: flex;
+  gap: 3rem;
+}
+
+.column {
+  flex-direction: column;
+}
+.food-img {
+  width: 16rem;
+  height: 9.6rem;
+}
+.food-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.25px;
+  color: #fff;
+  padding-bottom: 6px;
+}
+.food-paragraph {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #fff;
+  width: 35rem;
+}
+.discription {
+  width: 54rem;
+  height: 0.1rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  color: #fff;
+  opacity: 16%;
+}
+
+.family {
+  padding-top: 16rem;
+  display: flex;
+  gap: 12.5rem;
+}
+
+
+.family-right {
+  padding-top: 7rem;
+}
+.family-heading {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  padding-bottom: 1.9rem;
+  color: #242b37;
+}
+.family-paragraph {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #242b37;
+  padding-bottom: 6rem;
+}
+.family-link {
+  background-color: #111;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    opacity: 70%;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+  }
+}
+.family-h6 {
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 2.5px;
+  color: #4c4c4c;
+  padding-top: 7.9rem;
+}
+.family-small-paragraph {
+
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.8rem;
+  letter-spacing: 2.5px;
+  color: #4c4c4c;
+  padding-top: 1.2rem;
+  opacity: 50%;
+
+  &:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 100%;
+  }
+}
+
+.hover:hover {
+  opacity: 50%;
+}
